@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#noBtn {
+    background-color: #ccc;
+    color: black;
+    position: absolute; /* Needed for moving */
+}
+
+img {
+    max-width: 300px;
+    border-radius: 10px;
+}
